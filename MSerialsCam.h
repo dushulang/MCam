@@ -12,6 +12,22 @@
 #endif
 
 
+#ifndef ___TRIGGER_METHOD___
+#define ___TRIGGER_METHOD___
+
+#define TRIGGER_MASK		0xF
+
+#define _TRIGGER_UNABLE		0x0
+#define _TRIGGER_SOFTWARE	0x1
+#define _TRIGGER_HARDWARE	0x2
+
+#define TRIGGER_UNABLE		(TRIGGER_MASK&_TRIGGER_UNABLE)
+#define TRIGGER_SOFTWARE	(TRIGGER_MASK&_TRIGGER_SOFTWARE)
+#define TRIGGER_HARDWARE	(TRIGGER_MASK&_TRIGGER_HARDWARE)
+
+#endif
+
+
 //枚举相机,返回相机数量，相当于初始化,参数是提供了相机排序方式，默认为按相机名称排列
 CAMERADLL int			enum_cameras(int method = 0);
 //获取供相机的应商数量

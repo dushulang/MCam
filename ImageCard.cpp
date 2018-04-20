@@ -3,7 +3,8 @@
 #include "Daheng.h"
 #include "basler.h"
 #include "JingHang.h"
-#include "../MSerialsCommon/Tools.h"
+#include "baumer.h"
+//#include "../MSerialsCommon/Tools.h"
 
 
 //为了使跨编译器能使用，采用了C风格方式写出接口
@@ -127,6 +128,21 @@ int CImageCard::RefreshList(int method)
 	{
 		printf("Jing Hang camera init error code is %d\n", res);
 		delete jinghang;
+	}
+
+
+	Baumer *baumer = new Baumer(method);
+	res = baumer->refresh_list();
+	if (0 == res) printf("Baumer camera init success!\n");
+	if (0 != baumer->device_quantity())
+	{
+		Camera *a = baumer;
+		m_camera.push_back(a);
+	}
+	else
+	{
+		printf("Baumer camera init error code is %d\n", res);
+		delete baumer;
 	}
 
 	int number = 0;

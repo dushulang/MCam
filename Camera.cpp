@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "Camera.h"
-#include "../MSerialsCommon/common.h"
+//#include "../MSerialsCommon/common.h"
 #include <iostream>
 
 Camera::Camera()

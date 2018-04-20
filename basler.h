@@ -14,7 +14,7 @@
 #include "PylonCModule.h"
 
 */
-
+#include "UtilDef.h"
 #include <PylonC.h>
 #include <GenApiCError.h>
 

@@ -1,0 +1,17 @@
+﻿  stdafx.cpp
+  basler.cpp
+basler.cpp(75): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+basler.cpp(527): warning C4101: “max”: 未引用的局部变量
+basler.cpp(527): warning C4101: “min”: 未引用的局部变量
+  Camera.cpp
+  Daheng.cpp
+  ImageCard.cpp
+  JingHang.cpp
+  MSerialsCam.cpp
+  dllmain.cpp
+    正在创建库 d:\Users\Lux\Desktop\ProjectFile\ChongChuang\x64\ReleaseX64\MSerialsCamera.lib 和对象 d:\Users\Lux\Desktop\ProjectFile\ChongChuang\x64\ReleaseX64\MSerialsCamera.exp
+  正在生成代码
+  All 519 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  MSerialsCamera.vcxproj -> d:\Users\Lux\Desktop\ProjectFile\ChongChuang\x64\ReleaseX64\MSerialsCamera.dll
+  MSerialsCamera.vcxproj -> d:\Users\Lux\Desktop\ProjectFile\ChongChuang\x64\ReleaseX64\MSerialsCamera.pdb (Full PDB)

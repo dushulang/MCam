@@ -1,5 +1,6 @@
 #pragma once
 #include "Camera.h"
+#include "UtilDef.h"
 #include "atlstr.h"
 #include <mutex>
 

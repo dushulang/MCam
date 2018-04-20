@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "basler.h"
 #include <iostream>
 //不能使用stdafx.h
@@ -229,6 +230,7 @@ int Basler::refresh_list()
 			error = res;
 			if (!CHECK(res)) return 18;
 		}
+
 #ifdef GENAPIC_WIN_BUILD
 		else if (strcmp(di.DeviceClass, "Basler1394") == 0)
 		{

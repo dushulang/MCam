@@ -1,7 +1,8 @@
 #include "stdafx.h"
 #include "Daheng.h"
 #include <iostream>
-#include "../MSerialsCommon/common.h"
+#include "UtilDef.h"
+//#include "../MSerialsCommon/common.h"
 
 
 

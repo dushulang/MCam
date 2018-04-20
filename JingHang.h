@@ -1,5 +1,6 @@
 #pragma once
 #include "Camera.h"
+#include "UtilDef.h"
 #ifndef __JING_HANG__
 #define __JING_HANG__
 

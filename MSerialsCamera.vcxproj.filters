@@ -45,6 +45,12 @@
     <ClInclude Include="JingHang.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="UtilDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="baumer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -69,6 +75,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="JingHang.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="baumer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
